@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+#logo_menu{
+width: 40px;
+height: 40px;
+}
+#principal ul{
+display: inline-flex;
+list-style: none;
+}
+#principal li{
+padding: 10px;
+}
+
+#principal a{
+text-decoration: none;
+color: white;
+}
+
+#conteudo{
+margin-top: 100px;
+width: 1000px;
+}
+
+#lateral{
+width: 150px;
+height: 280px;
+background-color: white;
+float: left;
+position: fixed;
+top: 100px;
+}
+
+#fim{
+text-align: center; /centraliza o texto do rodapé/
+}
+
+.logo_rede{
+width: 30px;
+height: 30px;
+}
+.item_logo{
+	width: 30px;
+	height: 30px;
+}
+
+.logo{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+
+footer{
+margin-top: 20px;
+color: white;
+background-color: black;
+width: 100%; 
+height: 15vh;
+bottom: 0px;
+position: fixed;
+display: felx;
+justify-content: center;
+align-items: center;
+
+
+}
+
+button{
+background-color: purple;
+}
+button:hover{
+background-color: mediumpurple;
+}
+
+header{
+ 
+
+width: 100%;
+display: flex;
+align-items: center; 
+background-color: black; 
+position: fixed; 
+justify-content: center;
+}
+
+main{
+margin-left: 150px;
+width: 850px;
+background-color: white;
+float: center;
+}
